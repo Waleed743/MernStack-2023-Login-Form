@@ -1,0 +1,80 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+body{
+    background-color:rgb(43, 174, 226)}
+
+.mydiv{
+    margin: 0 auto; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    background-color: rgba(184, 175, 175, 0.781);
+    text-align: center;
+    max-width: 500px;
+  
+}
+
+img{
+   margin-top: 20px; 
+   border-radius: 50%;
+
+}   
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+
+
+input {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px;
+    display: inline-block;
+    
+
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(105, 105, 129);
+}
+
+input[type="submit"] {
+    background-color:rgb(255, 127, 127);
+    border: none;
+    color: rgb(14, 6, 6);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px; 
+}
+h4[type="text"] {
+    margin-top: 0.5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 2px
+    width: 100%;
+    max-width: 400px
+}
